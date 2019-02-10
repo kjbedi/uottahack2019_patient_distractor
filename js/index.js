@@ -1,6 +1,12 @@
 $("#doc").click(function(){
 	window.location = "doc.html";
 });
+
 $("#pat").click(function(){
-	alert(3);
+	window.location = "patient.html";
 });
+
+$("#patbutton").click(function(){
+	window.location = "./webvr/index.html";
+});
+
