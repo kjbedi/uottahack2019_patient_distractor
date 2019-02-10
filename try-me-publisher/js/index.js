@@ -25,10 +25,10 @@ var app = new Vue({
       session: {
         active: true,
         form: {
-          url: '',
-          userName: '',
-          password: '',
-          vpnName: '',
+          url: "wss://mr4b11zr9q7.messaging.mymaas.net:443",
+          userName: "solace-cloud-client",
+          vpnName: "msgvpn-4b11zr9pd",
+          password: "tdk3eihl9hrptqq0d560k54e39",
           transportProtocol: TransportProtocol.HTTP_BINARY_STREAMING,
           button: {
             connect: 'Connect',
@@ -43,7 +43,7 @@ var app = new Vue({
       publish: {
         form: {
           topic: 'try-me',
-          message: 'Hello world!',
+          message: 'play vr',
           format: 'binaryAttachment',
           button: {
             publish: 'Publish' } },
